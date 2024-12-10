@@ -1,0 +1,24 @@
+# 创建并编辑.gitignore文件
+echo # Maven
+target/
+
+# IDEA
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+
+# Compiled files
+*.class
+
+# Log files
+*.log  
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs
+hs_err_pid* > .gitignore
